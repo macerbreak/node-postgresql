@@ -3,9 +3,9 @@
 1) npm init -y
 2) npm i express pg
 3) npm i -D nodemon
-4) create index.js
-5) ("start": "node index.js") - add to the dependencies in package.json
-6) ("dev": "nodemon index.js") - add to the dependencies in package.json for auto refreshing server after changing
+4) create index.ts
+5) ("start": "node index.ts") - add to the dependencies in package.json
+6) ("dev": "nodemon index.ts") - add to the dependencies in package.json for auto refreshing server after changing
 ## Write in powershell
 7) (psql -U postgres) - the command, write in opened powershell with path C:\Program Files\PostgreSQL\14\bin, to enter to your db
 8) (create database "name of db";) - command to create new db after authorisation

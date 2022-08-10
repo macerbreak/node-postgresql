@@ -1,6 +1,7 @@
-const express = require("express")
-const userRouter  = require("./routes/user.routes")
-const postsRouter = require("./routes/posts.routes")
+import express from "express"
+import userRouter from "./routes/user.routes"
+import postsRouter from "./routes/posts.routes"
+
 const app = express()
 
 const PORT = process.env.PORT || 8080
